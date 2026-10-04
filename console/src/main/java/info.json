@@ -1,0 +1,9 @@
+{
+"package":"github.proxy",
+"title":"github加速",
+"version":1,
+"minSdk":124,
+"author":"dorobonneko",
+"apply":"plugin",
+"plugins":[{"hook":true,"setup":"moe.Hook","path":"/classes.dex.zip","name":"github_hook"}]
+}
