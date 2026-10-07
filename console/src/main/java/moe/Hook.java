@@ -48,6 +48,7 @@ public class Hook implements IHook {
 		switch(webResourceRequest.getUrl().getHost()){
 			case "codeload.github.com":
 			case "raw.githubusercontent.com":
+				case "release-assets.githubusercontent.com":
 			return true;
 			case "github.com":
 		List<String> paths=webResourceRequest.getUrl().getPathSegments();
